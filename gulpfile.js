@@ -30,6 +30,8 @@ const symbolConf = Object.assign({}, iconfontConf, {
     templateHTMLPath: path.resolve(__dirname, './templates/symbol-example.html'), // symbol example html path
 })
 
+// 转化中文到拼音
+// 插入 prefix 前缀
 function fixIconName(oriName) {
     const pinyinName = pinyin(oriName, {style: pinyin.STYLE_NORMAL})
         .toString()
@@ -38,6 +40,7 @@ function fixIconName(oriName) {
     return `${iconfontConf.prefix}-${pinyinName}`
 }
 
+// 返回所有svg文件的文件名
 function getIcons() {
     let icons = fs.readdirSync('./')
     icons = icons.filter(name => name.endsWith('.svg'))
@@ -55,10 +58,13 @@ gulp.config = (options) => {
     Object.assign(symbolConf, options)
 }
 
+// 清空文件
 gulp.task('del', function () {
     return del(['./iconfont/*'])
 })
 
+// 生成 iconfont 字体文件
+// 生成 iconfont.css 文件
 gulp.task('iconfont', function () {
     function genCSS(glyphs, options) {
         gulp.src(iconfontConf.templateCSSPath)
@@ -92,7 +98,7 @@ gulp.task('iconfont', function () {
         .pipe(gulp.dest(iconfontConf.outputFontsPath))
 })
 
-
+// 生成示例代码
 gulp.task('iconfont-example', function () {
     return gulp.src(iconfontConf.templateHTMLPath)
         .pipe(template({
@@ -102,6 +108,7 @@ gulp.task('iconfont-example', function () {
         .pipe(gulp.dest(iconfontConf.outputHTML))
 })
 
+// 生成 iconfont.js 文件
 gulp.task('symbol', function () {
     return new Promise((resolve) => {
         gulp.src(`${symbolConf.svgPath}/*.svg`)
@@ -123,6 +130,7 @@ gulp.task('symbol', function () {
         })
 })
 
+// 生成 示例代码
 gulp.task('symbol-example', function () {
     return gulp.src(symbolConf.templateHTMLPath)
         .pipe(template({
@@ -131,8 +139,10 @@ gulp.task('symbol-example', function () {
         .pipe(gulp.dest(symbolConf.outputHTML))
 })
 
+// 运行这个task，生成 iconfont
 gulp.task('gen-iconfont', gulp.parallel('del', 'iconfont', 'iconfont-example'))
 
+// 运行这个task，生成 smybol
 gulp.task('gen-symbol', gulp.parallel('del', 'symbol', 'symbol-example'))
 
 module.exports = gulp

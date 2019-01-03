@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="db01615f-9d28-4326-88fb-3e0e9aad8f96" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/iconfont-example.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/iconfont-example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/iconfont.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/iconfont.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/symbol-example.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/symbol-example.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="63" column="42" lean-forward="true" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
+            <state relative-caret-position="523">
+              <caret line="123" column="28" lean-forward="true" selection-start-line="123" selection-start-column="28" selection-end-line="123" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -28,8 +32,32 @@
       <file leaf-file-name="symbol-example.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/iconfont/symbol-example.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="1200">
+              <caret line="101" column="8" lean-forward="true" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iconfont.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/iconfont/iconfont.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret column="23983" lean-forward="true" selection-start-column="23983" selection-end-column="23983" />
+              <folding>
+                <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#defs#0;n#svg#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#defs#0;n#svg#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#rect#0;n#symbol#3;n#svg#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#rect#0;n#g#0;n#symbol#3;n#svg#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iconfont-example.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/iconfont-example.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="78" selection-start-line="78" selection-end-line="78" />
             </state>
           </provider>
         </entry>
@@ -38,7 +66,16 @@
         <entry file="file://$PROJECT_DIR$/templates/iconfont.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iconfont.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/iconfont.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="36" column="358" lean-forward="true" selection-start-line="36" selection-start-column="358" selection-end-line="36" selection-end-column="358" />
             </state>
           </provider>
         </entry>
@@ -46,8 +83,8 @@
       <file leaf-file-name="symbol-example.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/symbol-example.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="125" column="20" lean-forward="true" selection-start-line="125" selection-start-column="20" selection-end-line="125" selection-end-column="20" />
+            <state relative-caret-position="16">
+              <caret line="96" column="20" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -66,20 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/gulp-rename/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-168">
-              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            <state relative-caret-position="144">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -114,12 +142,15 @@
       <list>
         <option value="$PROJECT_DIR$/demo/test.js" />
         <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/demo/iconfont/iconfont.css" />
         <option value="$PROJECT_DIR$/demo/templates/iconfont-example.html" />
         <option value="$PROJECT_DIR$/demo/gulpfile.js" />
         <option value="$PROJECT_DIR$/templates/iconfont.css" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/demo/iconfont/iconfont.css" />
+        <option value="$PROJECT_DIR$/templates/iconfont-example.html" />
+        <option value="$PROJECT_DIR$/templates/symbol-example.html" />
+        <option value="$PROJECT_DIR$/templates/iconfont.js" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
       </list>
     </option>
   </component>
@@ -189,6 +220,11 @@
             <path>
               <item name="svg-man" type="b2602c69:ProjectViewProjectNode" />
               <item name="svg-man" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svg-man" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svg-man" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="svg-man" type="b2602c69:ProjectViewProjectNode" />
@@ -290,8 +326,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gulp.js.gen-symbol" />
-        <item itemvalue="Gulp.js.test" />
         <item itemvalue="Gulp.js.gen-iconfont" />
+        <item itemvalue="Gulp.js.test" />
         <item itemvalue="Gulp.js.iconfont" />
       </list>
     </recent_temporary>
@@ -309,7 +345,7 @@
       <workItem from="1546484157568" duration="5213000" />
       <workItem from="1546498054480" duration="13000" />
       <workItem from="1546498171527" duration="52000" />
-      <workItem from="1546499306682" duration="4074000" />
+      <workItem from="1546499306682" duration="7264000" />
     </task>
     <task id="LOCAL-00001" summary="update version">
       <created>1546498208965</created>
@@ -332,11 +368,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546506895533</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="release v0.1.1">
+      <created>1546506970076</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1546506970076</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9352000" />
+    <option name="totallyTimeSpent" value="12542000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -375,7 +418,8 @@
     <MESSAGE value="update version" />
     <MESSAGE value="feat: add demo" />
     <MESSAGE value="feat: update css tempate" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: update css tempate" />
+    <MESSAGE value="release v0.1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="release v0.1.1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/templates/iconfont.js">
@@ -450,9 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/iconfont.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -480,29 +521,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/iconfont/iconfont.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/iconfont/iconfont-example.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1392">
-          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo/templates/iconfont.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/iconfont-example.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/templates/iconfont-example.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -515,10 +539,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/iconfont/symbol-example.html">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/iconfont/iconfont.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/iconfont/iconfont-example.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/iconfont.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/iconfont-example.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/iconfont.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="36" column="358" lean-forward="true" selection-start-line="36" selection-start-column="358" selection-end-line="36" selection-end-column="358" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/symbol-example.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="96" column="20" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/iconfont/iconfont.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret column="23983" lean-forward="true" selection-start-column="23983" selection-end-column="23983" />
+          <folding>
+            <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#defs#0;n#svg#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#defs#0;n#svg#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#rect#0;n#symbol#3;n#svg#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#rect#0;n#g#0;n#symbol#3;n#svg#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/iconfont/symbol-example.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="101" column="8" lean-forward="true" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -531,29 +617,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="63" column="42" lean-forward="true" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/symbol-example.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="125" column="20" lean-forward="true" selection-start-line="125" selection-start-column="20" selection-end-line="125" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/iconfont.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="523">
+          <caret line="123" column="28" lean-forward="true" selection-start-line="123" selection-start-column="28" selection-end-line="123" selection-end-column="28" />
         </state>
       </provider>
     </entry>
