@@ -20,7 +20,7 @@ assets
 content of `gulpfile.js`
 ```
 // gulpfile.js
-const gulp = require('../gulpfile')
+const gulp = require('svg-man')
 gulp.config({
     fontName: 'ft-icon',
     prefix: 'ft'
