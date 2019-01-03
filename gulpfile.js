@@ -8,13 +8,15 @@ const template = require('gulp-template')
 const svgstore = require('gulp-svgstore')
 const through2 = require('through2')
 const htmlmin = require('gulp-htmlmin')
+const path = require('path')
 
 const outputPath = './iconfont' // 输出路径
 const iconfontConf = {
     svgPath: '.', // svg 文件夹路径（当前文件夹）
     fontName: 'fe-font', // font-family
-    templateCSSPath: './templates/iconfont.css', // css 模板的路径
-    templateHTMLPath: './templates/iconfont-example.html', // iconfont example html path
+    prefix: 'fe', // class 前缀 和 symbol id 前缀
+    templateCSSPath: path.resolve(__dirname, './templates/iconfont.css'), // css 模板的路径
+    templateHTMLPath: path.resolve(__dirname, './templates/iconfont-example.html'), // iconfont example html path
     outputCSSPath: outputPath, // css 输出路径,这个路径是相对 outputPath的路径（我也不知道为什么）
     fontsPathInCSS: './fonts/', // iconfont.css 中引入font文件时用到的相对路径
     outputFontsPath: `${outputPath}/fonts`, // 字体文件输出路径
@@ -23,22 +25,29 @@ const iconfontConf = {
 }
 
 const symbolConf = Object.assign({}, iconfontConf, {
-    templateJSPath: './templates/iconfont.js', // js 模板的路径
+    templateJSPath: path.resolve(__dirname, './templates/iconfont.js'), // js 模板的路径
     outputJS: outputPath, // 输出js文件的路径
-    templateHTMLPath: './templates/symbol-example.html', // symbol example html path
+    templateHTMLPath: path.resolve(__dirname, './templates/symbol-example.html'), // symbol example html path
 })
+
+function fixIconName(oriName) {
+    const pinyinName = pinyin(oriName, {style: pinyin.STYLE_NORMAL})
+        .toString()
+        .replace(/,/g, '')
+        .replace('.svg', '')
+    return `${iconfontConf.prefix}-${pinyinName}`
+}
 
 function getIcons() {
     let icons = fs.readdirSync('./')
     icons = icons.filter(name => name.endsWith('.svg'))
-        .map(function (icon) {
-            return pinyin(icon, {style: pinyin.STYLE_NORMAL}).toString().replace(/,/g, '').replace('.svg', '')
-        })
+        .map(fixIconName)
     return icons
 }
 
 /**
  * @param options.fontName // font-family
+ * @param options.prefix // class 前缀 或 symbol id 前缀
  * @param options.startUnicode // 16进制
  */
 gulp.config = (options) => {
@@ -63,7 +72,7 @@ gulp.task('iconfont', function () {
 
     return gulp.src(`${iconfontConf.svgPath}/*.svg`)
         .pipe(rename(function (path) {
-            path.basename = pinyin(path.basename, {style: pinyin.STYLE_NORMAL}).toString().replace(/,/g, '')
+            path.basename = fixIconName(path.basename)
         }))
         .pipe(iconfont({
             fontName: iconfontConf.fontName,
@@ -87,6 +96,7 @@ gulp.task('iconfont-example', function () {
     return gulp.src(iconfontConf.templateHTMLPath)
         .pipe(template({
             icons: getIcons(),
+            fontName: iconfontConf.fontName
         }))
         .pipe(gulp.dest(iconfontConf.outputHTML))
 })
@@ -95,7 +105,7 @@ gulp.task('symbol', function () {
     return new Promise((resolve) => {
         gulp.src(`${symbolConf.svgPath}/*.svg`)
             .pipe(rename(function (path) {
-                path.basename = pinyin(path.basename, {style: pinyin.STYLE_NORMAL}).toString().replace(/,/g, '')
+                path.basename = fixIconName(path.basename)
             }))
             .pipe(svgstore({inlineSvg: true}))
             .pipe(htmlmin({ collapseWhitespace: true }))
@@ -120,8 +130,8 @@ gulp.task('symbol-example', function () {
         .pipe(gulp.dest(symbolConf.outputHTML))
 })
 
-gulp.task('gen-iconfont', ['del', 'iconfont', 'iconfont-example'])
+gulp.task('gen-iconfont', gulp.parallel('del', 'iconfont', 'iconfont-example'))
 
-gulp.task('gen-symbol', ['del', 'symbol', 'symbol-example'])
+gulp.task('gen-symbol', gulp.parallel('del', 'symbol', 'symbol-example'))
 
 module.exports = gulp

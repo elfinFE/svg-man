@@ -16,7 +16,7 @@
 }
 
 <% _.each(glyphs, function(glyph) { %>
-.icon-<%= glyph.name %>:before {
+.<%= glyph.name %>:before {
 	content: "\<%= glyph.unicode[0].codePointAt(0).toString(16).toUpperCase() %>";
 }
 <% }); %>
