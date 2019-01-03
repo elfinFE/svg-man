@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>icon font test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./iconfont.css">
+    <style>
+        .icon_lists{
+          width: 100% !important;
+        }
+
+        .icon_lists li{
+          float:left;
+          width: 100px;
+          height:180px;
+          text-align: center;
+          list-style: none !important;
+          font-size: 12px;
+          margin-right: 15px;
+          
+        }
+        .icon_lists .icon{
+          display: block;
+          text-align: center;
+          font-size: 42px;
+          line-height: 100px;
+          margin: 10px 0;
+          color:#333;
+          -webkit-transition: font-size 0.25s ease-out 0s;
+          -moz-transition: font-size 0.25s ease-out 0s;
+          transition: font-size 0.25s ease-out 0s;
+
+        }
+        .fontclass{overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+        .icon_lists .icon:hover{
+          font-size: 100px;
+        }
+        .markdown {
+          color: #666;
+          font-size: 14px;
+          line-height: 1.8;
+        }
+
+        .highlight {
+          line-height: 1.5;
+        }
+
+        .markdown img {
+          vertical-align: middle;
+          max-width: 100%;
+        }
+
+        .markdown h1 {
+          color: #404040;
+          font-weight: 500;
+          line-height: 40px;
+          margin-bottom: 24px;
+        }
+        .name {
+          font-size: 16px;
+        }
+        .clear:after {
+          content: '\20';
+          display: block;
+          height: 0;
+          clear: both;
+        }
+
+        .helps{margin-top:40px;}
+        .helps pre{
+          padding:20px;
+          margin:10px 0;
+          border:solid 1px #e7e1cd;
+          background-color: #fffdef;
+          overflow: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Icon Font</h2>
+    <ul class="icon_lists clear">    
+    <% _.each(icons, function(icon) { %>
+    <li>
+      <i class="icon iconfont icon-<%= icon %>"> </i>
+      <div class="fontclass">.icon-<%= icon%></div>
+    </li>
+    <% }); %>
+    </ul>
+   <div style="clear: both;">
+     <h2>Use Icon Font</h2>
+     <pre>
+      &lt;span class=&quot;iconfont icon-add&quot;&gt;&lt;/span&gt;
+     </pre> 
+   </div>
+   <div class="helps">
+            第一步：使用font-face声明字体
+            <pre>@font-face {font-family: 'iconfont';
+        src: url('iconfont.eot'); /* IE9*/
+        src: url('iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('iconfont.woff') format('woff'), /* chrome、firefox */
+        url('iconfont.ttf') format('truetype')/* chrome、firefox、opera、Safari, Android, iOS 4.2+*/; 
+    }
+    </pre>
+    第二步：定义使用iconfont的样式
+                <pre>.iconfont{
+        font-family:"iconfont" !important;
+        font-size:16px;font-style:normal;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-stroke-width: 0.2px;
+        -moz-osx-font-smoothing: grayscale;}
+    </pre>
+    第三步：挑选相应图标并获取字体编码，应用于页面
+    <pre>&lt;i class="iconfont"&gt;&amp;#x33;&lt;/i&gt;
+    </pre>
+  </div>    
+</body>
+</html>
