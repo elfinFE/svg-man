@@ -1,6 +1,6 @@
 {
   "name": "svg-man",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "gukong<1239242238@qq.com>",
   "files": [
     "gulpfile.js",
@@ -19,7 +19,7 @@
     "through2": "^3.0.0"
   },
   "description": "将svg图标转化成iconfont",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

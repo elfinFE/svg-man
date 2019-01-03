@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/svg-to-iconfont.iml" filepath="$PROJECT_DIR$/.idea/svg-to-iconfont.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/svg-man.iml" filepath="$PROJECT_DIR$/.idea/svg-man.iml" />
     </modules>
   </component>
 </project>
