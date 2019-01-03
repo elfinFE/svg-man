@@ -26,6 +26,10 @@ gulp.config({
     prefix: 'ft'
 })
 ```
+config
+* fontName: String
+* prefix: String
+* startUnicode: HEX Integer
 
 ### step 1
 
@@ -35,6 +39,8 @@ gulp.config({
 ![](./assets/menu.jpg)
 
 ### step 2
+
+![](./assets/gulp.jpg)
 
 #### run `gen-iconfont`
 you will get some font files
