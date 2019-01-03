@@ -1,6 +1,6 @@
 {
   "name": "svg-man",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "author": "gukong<1239242238@qq.com>",
   "files": [
     "gulpfile.js",

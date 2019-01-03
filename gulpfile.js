@@ -65,6 +65,7 @@ gulp.task('iconfont', function () {
             .pipe(template({
                 fontPath: iconfontConf.fontsPathInCSS,
                 fontName: iconfontConf.fontName,
+                prefix: iconfontConf.prefix,
                 glyphs,
             }))
             .pipe(gulp.dest(iconfontConf.outputCSSPath))

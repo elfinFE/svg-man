@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db01615f-9d28-4326-88fb-3e0e9aad8f96" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/demo/order.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/password.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/rest.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/心.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/放大镜.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/星星.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/星星_1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/服务.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/申请.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/申请_1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/签名.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/箭头.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/箭头_1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/维修扳手.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/请假申请.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/退出.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/iconfont-example.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/iconfont-example.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/iconfont.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/iconfont.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -38,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="134" column="73" selection-start-line="134" selection-start-column="73" selection-end-line="134" selection-end-column="73" />
+            <state relative-caret-position="360">
+              <caret line="63" column="42" lean-forward="true" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -56,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="iconfont.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="iconfont.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/iconfont.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            <state relative-caret-position="192">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -91,8 +72,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+            <state relative-caret-position="408">
+              <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -115,8 +96,8 @@
       <find>htmlmin</find>
       <find>STYLE_NORMAL</find>
       <find>gen-iconfont</find>
-      <find>prefix</find>
       <find>font-family</find>
+      <find>prefix</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -127,11 +108,11 @@
       <list>
         <option value="$PROJECT_DIR$/demo/test.js" />
         <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/templates/iconfont.css" />
-        <option value="$PROJECT_DIR$/demo/gulpfile.js" />
         <option value="$PROJECT_DIR$/demo/iconfont/iconfont.css" />
         <option value="$PROJECT_DIR$/demo/templates/iconfont-example.html" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/demo/gulpfile.js" />
+        <option value="$PROJECT_DIR$/templates/iconfont.css" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
       </list>
     </option>
@@ -206,7 +187,7 @@
             <path>
               <item name="svg-man" type="b2602c69:ProjectViewProjectNode" />
               <item name="svg-man" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -322,7 +303,7 @@
       <workItem from="1546484157568" duration="5213000" />
       <workItem from="1546498054480" duration="13000" />
       <workItem from="1546498171527" duration="52000" />
-      <workItem from="1546499306682" duration="2276000" />
+      <workItem from="1546499306682" duration="4012000" />
     </task>
     <task id="LOCAL-00001" summary="update version">
       <created>1546498208965</created>
@@ -331,11 +312,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546498208965</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: add demo">
+      <created>1546501646699</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1546501646699</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7554000" />
+    <option name="totallyTimeSpent" value="9290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -344,10 +332,10 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3291536" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3291536" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3291536" />
-      <window_info id="Gulp" sideWeight="0.2538941" side_tool="true" visible="true" weight="0.24973656" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7461059" visible="true" weight="0.24973656" />
+      <window_info id="Gulp" sideWeight="0.2539185" side_tool="true" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.74608153" visible="true" weight="0.24973656" />
       <window_info anchor="bottom" id="Reviews" order="7" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -372,7 +360,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="update version" />
-    <option name="LAST_COMMIT_MESSAGE" value="update version" />
+    <MESSAGE value="feat: add demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add demo" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/templates/iconfont.js">
@@ -470,13 +459,6 @@
     <entry file="file://$PROJECT_DIR$/demo/password.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo/templates/iconfont.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -526,10 +508,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/iconfont.css">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state relative-caret-position="408">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -542,8 +524,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="134" column="73" selection-start-line="134" selection-start-column="73" selection-end-line="134" selection-end-column="73" />
+        <state relative-caret-position="360">
+          <caret line="63" column="42" lean-forward="true" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/iconfont.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
