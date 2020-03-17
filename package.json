@@ -1,11 +1,15 @@
 {
-  "name": "svg-man",
-  "version": "0.1.1",
+  "name": "@elfin-fe/svg-man",
+  "version": "0.2.0",
   "author": "gukong<1239242238@qq.com>",
   "files": [
     "gulpfile.js",
     "templates/*"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:elfinFE/svg-man.git"
+  },
   "dependencies": {
     "del": "^3.0.0",
     "gulp": "^4.0.0",

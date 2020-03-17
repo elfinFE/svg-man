@@ -77,7 +77,7 @@ gulp.task('iconfont', function () {
             .pipe(gulp.dest(iconfontConf.outputCSSPath))
     }
 
-    return gulp.src(`${iconfontConf.svgPath}/*.svg`)
+    return gulp.src(`${iconfontConf.svgPath}/**/*.svg`)
         .pipe(rename(function (path) {
             path.basename = fixIconName(path.basename)
         }))
@@ -111,7 +111,7 @@ gulp.task('iconfont-example', function () {
 // 生成 iconfont.js 文件
 gulp.task('symbol', function () {
     return new Promise((resolve) => {
-        gulp.src(`${symbolConf.svgPath}/*.svg`)
+        gulp.src(`${symbolConf.svgPath}/**/*.svg`)
             .pipe(rename(function (path) {
                 path.basename = fixIconName(path.basename)
             }))
