@@ -18,8 +18,8 @@
     "gulp-rename": "^1.4.0",
     "gulp-svgstore": "^7.0.1",
     "gulp-template": "^5.0.0",
-    "pinyin": "^2.8.3",
-    "through2": "^3.0.0"
+    "through2": "^3.0.0",
+    "word-pinyin": "^0.1.8"
   },
   "devDependencies": {},
   "description": "将svg图标转化成iconfont",
