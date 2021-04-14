@@ -1,4 +1,4 @@
-const pinyin = require('pinyin')
+const pinyin = require('word-pinyin').default
 const gulp = require('gulp')
 const del = require('del')
 const iconfont = require('gulp-iconfont')
@@ -33,9 +33,10 @@ const symbolConf = Object.assign({}, iconfontConf, {
 // 转化中文到拼音
 // 插入 prefix 前缀
 function fixIconName(oriName) {
-    const pinyinName = pinyin(oriName, {style: pinyin.STYLE_NORMAL})
+    const pinyinName = pinyin.getPinyin(oriName)
         .toString()
         .replace(/,/g, '')
+        .replace(/ /g, '')
         .replace('.svg', '')
     return `${iconfontConf.prefix}-${pinyinName}`
 }

@@ -1,0 +1,91 @@
+@font-face {
+	font-family: "ft-icon";
+	src: url('./fonts/ft-icon.eot');
+	src: url('./fonts/ft-icon.eot?#iefix') format('eot'),
+		url('./fonts/ft-icon.woff') format('woff'),
+		url('./fonts/ft-icon.ttf') format('truetype');
+}
+
+
+[class^="ft-"], [class*=" ft-"] {
+	font-family: "ft-icon" !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	vertical-align: baseline;
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+.ft-rest:before {
+	content: "\EA01";
+}
+
+.ft-xin:before {
+	content: "\EA02";
+}
+
+.ft-fangdajing:before {
+	content: "\EA03";
+}
+
+.ft-xingxing:before {
+	content: "\EA04";
+}
+
+.ft-xingxing_1:before {
+	content: "\EA05";
+}
+
+.ft-fuwu:before {
+	content: "\EA06";
+}
+
+.ft-shenqing:before {
+	content: "\EA07";
+}
+
+.ft-shenqing_1:before {
+	content: "\EA08";
+}
+
+.ft-qianming:before {
+	content: "\EA09";
+}
+
+.ft-jiantou:before {
+	content: "\EA0A";
+}
+
+.ft-jiantou_1:before {
+	content: "\EA0B";
+}
+
+.ft-weixiubanshou:before {
+	content: "\EA0C";
+}
+
+.ft-qingjiashenqing:before {
+	content: "\EA0D";
+}
+
+.ft-tuichu:before {
+	content: "\EA0E";
+}
+
+.ft-order:before {
+	content: "\EA0F";
+}
+
+.ft-password:before {
+	content: "\EA10";
+}
+
+.ft-ft-icon:before {
+	content: "\EA11";
+}
